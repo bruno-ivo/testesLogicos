@@ -1,0 +1,59 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+
+	function pulaLinha() {
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		document.write("<br>");
+	}
+
+	var ano = 2016;
+
+	
+	mostra("Flávio tem: " + (ano - 1977) + " anos");
+	mostra("Joaquim tem: " + (ano - 1996) + " anos");
+	mostra("Barney tem: " + (ano - 1976) + " anos");
+	
+
+	var idadeFlavio = 39;
+	var idadeJoaquim = 20;
+	var idadeBarney = 41;
+
+	var totalIdades = idadeFlavio + idadeJoaquim + idadeBarney;
+	var media = (totalIdades)/3;
+
+	document.write("A média das Idades é: " + Math.round(media));
+
+	var nomeFlavio = "Flávio";
+	var nomeJoaquin = "Joaquim";
+	var nomeBarney = "Barney"
+
+	document.write("<br>");
+	document.write("A idade de " + nomeFlavio + " é " + idadeFlavio);
+	document.write("<br>");
+	document.write("A idade de " + nomeJoaquin + " é " + idadeJoaquim);
+	document.write("<br>");
+	document.write("A idade de " + nomeBarney + " é " + idadeBarney);
+	document.write("<br>");
+
+	  function pulaLinha() {
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        var idadeMediaQuandoTemFilhos = 28;
+        var anoAtual = 2016; 
+
+        var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+        mostra(quantidadeDeGeracoes);
+
+</script>
